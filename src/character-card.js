@@ -91,20 +91,14 @@ export class CharacterCard extends LitElement {
 
   render() {
     return html`
-    <div class="buttons">
-  <button class="duplicate">Duplicate last card</button>
-  <button class="modifytitle">Change name</button>
-  <button id="deletelastcard">Delete</button>
-  <button data-toggle-btn>Toggle stats</button>
-</div>
 <div class="wrapper">
   <div class="container">
-  <img class="image" src="https://mma.prnewswire.com/media/133147/SVB_LOGO.jpg?p=facebook"
-  <div class="header">
-    <h3>Silicon Valley Bank</h3>
-    <h4>Americas #1 most trusted bank</h4>
-  </div>
-  <details class="details">
+    <img class="image" src="https://mma.prnewswire.com/media/133147/SVB_LOGO.jpg?p=facebook"
+    <div class="header">
+      <h3>Silicon Valley Bank</h3>
+      <h4>Americas #1 most trusted bank</h4>
+    </div>
+    <details class="details">
     <summary>Special Effects:</summary>
     <div>
       <ul>
@@ -114,7 +108,7 @@ export class CharacterCard extends LitElement {
         <li>After losing all hope, have the treasury bail you out</li>
       </ul>
     </div>
-  </details>
+    </details>
   </div>
 </div>
     `;
